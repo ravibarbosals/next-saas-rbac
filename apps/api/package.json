@@ -1,0 +1,27 @@
+{
+    "name": "@saas/api",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "build": "tsc --noEmit",
+        "lint": "eslint src/"
+    },
+    "dependencies": {
+        "@saas/auth": "*"
+    },
+    "devDependencies": {
+        "@saas/eslint-config": "*",
+        "@saas/prettier": "*",
+        "@saas/tsconfig": "*",
+        "@types/node": "^25.6.0",
+        "tsx": "^4.21.0",
+        "typescript": "^5.9.2"
+    },
+    "prettier": "@saas/prettier",
+    "eslintConfig": {
+        "extends": [
+            "@saas/eslint-config/node"
+        ]
+    }
+}

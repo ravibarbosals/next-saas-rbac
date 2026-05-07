@@ -1,14 +1,14 @@
 /** @typedef {import('prettier').Config} PrettierConfig */
 
 const config = {
-    plugins: ['prettier-plugin-tailwindcs'],
+    plugins: ['prettier-plugin-tailwindcss'],
     printWidth: 80,
     tabWidth: 2,
-    usetabs: false,
+    useTabs: false,
     semi: false,
     singleQuote: true,
-    quotePorps: 'as-needed',
-    jsxSingleQUote: false,
+    quoteProps: 'as-needed',
+    jsxSingleQuote: false,
     trailingComma: 'es5',
     bracketSpacing: true,
     arrowParens: 'always',
